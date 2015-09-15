@@ -39,7 +39,7 @@ fi
 
 numlockx &
 compton &
-feh --bg-file ~/.config/background.jpg &
+feh --bg-fill ~/.config/background.jpg &
 rofi &
 redshift-gtk &
 exec i3
