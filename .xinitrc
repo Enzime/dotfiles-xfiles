@@ -39,7 +39,7 @@ fi
 
 numlockx &
 compton &
-feh --bg-scale ~/.config/background.jpg &
+feh --bg-file ~/.config/background.jpg &
 rofi &
 redshift-gtk &
 exec i3
