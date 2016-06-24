@@ -40,6 +40,5 @@ fi
 numlockx &
 compton &
 feh --bg-fill ~/.config/background.jpg &
-rofi &
 redshift-gtk &
 exec i3
