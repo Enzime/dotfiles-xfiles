@@ -1,68 +1,72 @@
-! Base16 Monokai
-! Scheme: Wimer Hazenberg (http://www.monokai.nl)
+#define bg   #0d0c0c
+#define fg   #fff5ed
 
-#define base00 #272822
-#define base01 #383830
-#define base02 #49483e
-#define base03 #75715e
-#define base04 #a59f85
-#define base05 #f8f8f2
-#define base06 #f5f4f1
-#define base07 #f9f8f5
-#define base08 #f92672
-#define base09 #fd971f
-#define base0A #f4bf75
-#define base0B #a6e22e
-#define base0C #a1efe4
-#define base0D #66d9ef
-#define base0E #ae81ff
-#define base0F #cc6633
+#define blk  #0a0a0a
+#define bblk #73645d
+#define dred #e61f00
+#define red  #ff3f3d
+#define dgrn #6dd200
+#define grn  #c1ff05
+#define dylw #fa6800
+#define ylw  #ffa726
+#define dblu #225ae4
+#define blu  #00ccff
+#define dmag #ff0084
+#define mag  #ff65a0
+#define dcyn #36fcd3
+#define cyn  #96ffe3
+#define dwht #b6afab
+#define wht  #fff5ed
 
-URxvt*depth: 32
-URxvt*background: base00
-URxvt*foreground: base05
 
-URxvt*font: xft:monaco:size=10
-URxvt*boldFont: xft:monaco:size=10
-
-URxvt*scrollBar: false
-
+URxvt*depth:       32
+URxvt*font:        xft:monaco:size=10
+URxvt*boldFont:    xft:monaco:size=10
+URxvt*scrollBar:   false
 URxvt*letterSpace: -1
-URxvt*lineSpace: -1
+URxvt*lineSpace:   -1
 
-rofi*key-window: Alt-w
-rofi*key-run: Alt-d
-rofi*terminal: termite --name floating
 
-rofi*bg: base00
+rofi.font:            Source Code Pro Semibold 10
+rofi.terminal:        termite --name floating
+rofi.lines:           1
+rofi.columns:         20
+rofi.eh:              2
+rofi.location:        2
+rofi.width:           100
+rofi.padding:         8
+rofi.fullscreen:      false
+rofi.opacity:         100
+rofi.bw:              1
+rofi.sidebar-mode:    false
+rofi.separator-style: none
+rofi.hide-scrollbar:  true
+rofi.fuzzy:           true
+rofi.color-enabled:   true
 
-*.foreground:   base05
-*.background:   base00
-*.cursorColor:  base05
+rofi.color-normal: bg, fg, bg, bg, blu
+rofi.color-urgent: bg, fg, bg, bg, blu
+rofi.color-active: bg, fg, bg, bg, blu
+rofi.color-window: bg, red
 
-*.color0:       base00
-*.color1:       base08
-*.color2:       base0B
-*.color3:       base0A
-*.color4:       base0D
-*.color5:       base0E
-*.color6:       base0C
-*.color7:       base05
 
-*.color8:       base03
-*.color9:       base08
-*.color10:      base0B
-*.color11:      base0A
-*.color12:      base0D
-*.color13:      base0E
-*.color14:      base0C
-*.color15:      base07
+*background:  bg
+*foreground:  fg
+*cursorColor: blu
 
-! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
-! use 'shell' template to set these if necessary
-*.color16:      base09
-*.color17:      base0F
-*.color18:      base01
-*.color19:      base02
-*.color20:      base04
-*.color21:      base06
+*color0:      blk
+*color8:      bblk
+*color1:      dred
+*color9:      red
+*color2:      dgrn
+*color10:     grn
+*color3:      dylw
+*color11:     ylw
+*color4:      dblu
+*color12:     blu
+*color5:      dmag
+*color13:     mag
+*color6:      dcyn
+*color14:     cyn
+*color7:      dwht
+*color15:     wht
