@@ -4,8 +4,8 @@
 # "xte 'mouseup 2' 'mouseclick 9'"
 #   b:15 + release
 
-"xte 'keydown Super_L' && watch-mouse 9"
+"xte 'keydown Alt_L' && watch-mouse 9"
   b:14
 
-"xte 'keydown Hyper_L' && watch-mouse 8"
+"xte 'keydown Super_L' && watch-mouse 8"
   b:15
