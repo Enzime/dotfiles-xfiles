@@ -1,5 +1,7 @@
 *
 !/.gitignore.d
 !/.gitignore.d/xfiles
+!/.xbindkeysrc
 !/.xinitrc
+!/.Xmodmap
 !/.Xresources
