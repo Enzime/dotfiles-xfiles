@@ -19,6 +19,9 @@
 #define wht  #fff5ed
 
 
+*.dpi: 227
+
+
 URxvt*depth:       32
 URxvt*font:        xft:monaco:size=10
 URxvt*boldFont:    xft:monaco:size=10

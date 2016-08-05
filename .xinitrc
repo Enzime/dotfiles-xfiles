@@ -37,6 +37,8 @@ fi
 # xterm -geometry 80x20+494-0 &
 # exec xterm -geometry 80x66+0+0 -name login
 
+xrandr --dpi 227
+xrdb $userresources
 xcape -e 'Alt_L=Escape'
 xbindkeys
 
