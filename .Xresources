@@ -41,7 +41,7 @@ rofi.bw:              1
 rofi.sidebar-mode:    false
 rofi.separator-style: none
 rofi.hide-scrollbar:  true
-rofi.fuzzy:           true
+rofi.fuzzy:           false
 rofi.color-enabled:   true
 
 rofi.color-normal: bg, fg, bg, bg, blu
