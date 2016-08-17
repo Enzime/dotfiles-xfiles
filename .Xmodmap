@@ -2,5 +2,6 @@ remove Lock = Caps_Lock
 remove mod4 = Hyper_L
 keycode 9 = NoSymbol
 keycode 66 = Hyper_L
+keycode 254 = Caps_Lock
 keycode 255 = Escape
 add mod3 = Hyper_L
