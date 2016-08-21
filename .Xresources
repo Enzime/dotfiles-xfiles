@@ -19,7 +19,7 @@
 #define wht  #fff5ed
 
 
-*.dpi: 227
+*dpi: 227
 
 
 URxvt*depth:       32
