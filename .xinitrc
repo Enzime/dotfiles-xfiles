@@ -44,4 +44,5 @@ numlockx &
 compton &
 feh --bg-fill ~/.config/background.jpg &
 redshift-gtk &
+cerebro &
 exec i3
